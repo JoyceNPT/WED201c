@@ -1,0 +1,116 @@
+.logo-web {
+    display: flex;
+    justify-content: center;
+}
+
+.logo-web .logo {
+    width: 200px;
+    height: 100px;
+}
+
+.logo-web img {
+    width: 100%;
+}
+
+.navbar-nav {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+#title-content {
+    color: #0EC0C3;
+    text-align: center;
+    margin: 50px 0px 20px 0px
+}
+
+.about-hung-phat {
+    margin-top: -20px;
+}
+
+.hung-phat-land img {
+    width: 100%;
+}
+
+.hung-phat-land .sub-hung-phat {
+    font-size: 24px;
+}
+
+.content-image .image-hcm {
+    position: relative;
+}
+
+.content-image .image-hcm img {
+    width: 100%;
+    height: 430px;
+}
+
+.content-image .sub-image {
+    position: absolute;
+    top: -10px;
+    left: 25px;
+    color: #ffffff;
+}
+
+.img-1 img {
+    width: 100%;
+    height: 200px;
+}
+
+.image-other .sub-img {
+    position: absolute;
+    top: -10px;
+    left: 25px;
+    color: #ffffff;
+}
+
+.image-other .img-one, .img-two {
+    margin-bottom: 15px;
+}
+
+.image-other .img-three, .img-four {
+    margin-top: 15px;
+}
+
+.position-image img {
+    width: 100%;
+}
+
+.position-image .sub-house h3 {
+    margin-top: 0px;
+    color: orangered;
+    text-align: center;
+}
+
+.position-image .sub-house p {
+    font-size: 18px;
+}
+
+.footer-section {
+    background-color: #0EC0C3;
+    margin: 30px -15px 0px -15px;
+    padding: 10px 0px 10px 0px;
+}
+
+.footer-section .sub-footer {
+    text-align: center;
+    color: #ffffff;
+}
+
+@media screen and (max-width: 767.98px) {
+    .hung-phat-land .sub-hung-phat p {
+        margin-top: 20px;
+    }
+
+    .content-image .image-hcm {
+        margin-bottom: 30px;
+    }
+
+    .image-other .img-two, .img-three {
+        margin: 30px 0px;
+    }
+
+    .position-image img {
+        margin-bottom: 20px;
+    }
+}
